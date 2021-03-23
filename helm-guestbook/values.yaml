@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginxinc/nginx-unprivileged:latest
+  repository: upshift.mirror-registry.qe.devcluster.openshift.com:5000/nginx-unprivileged
   tag: latest
   pullPolicy: IfNotPresent
 
