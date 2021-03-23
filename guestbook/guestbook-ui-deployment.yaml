@@ -14,8 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: upshift.mirror-registry.qe.devcluster.openshift.com:5000/nginx-unprivileged
-      # nginxinc/nginx-unprivileged:latest
+      - image: nginxinc/nginx-unprivileged:latest
+      # upshift.mirror-registry.qe.devcluster.openshift.com:5000/nginx-unprivileged
         name: guestbook-ui
         ports:
         - containerPort: 80
