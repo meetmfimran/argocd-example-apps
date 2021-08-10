@@ -15,7 +15,13 @@ spec:
     spec:
       containers:
       - image: nginxinc/nginx-unprivileged
-      # upshift.mirror-registry.qe.devcluster.openshift.com:5000/nginx-unprivileged
+      resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
         name: guestbook-ui
         ports:
         - containerPort: 80
