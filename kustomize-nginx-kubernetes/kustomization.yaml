@@ -1,0 +1,7 @@
+namePrefix: devops-india-
+
+resources:
+- nginx-deployment.yaml
+- nginx-svc.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
