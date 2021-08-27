@@ -1,4 +1,4 @@
-namePrefix: kustomize-
+namePrefix: devops-india-
 
 resources:
 - nginx-deployment.yaml
