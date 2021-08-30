@@ -1,4 +1,4 @@
-namePrefix: devops-india-
+namePrefix: redhat-accelerators-
 
 resources:
 - nginx-deployment.yaml
