@@ -1,4 +1,4 @@
-namePrefix: redhat-accelerators-
+namePrefix: prod-
 
 resources:
 - nginx-deployment.yaml
