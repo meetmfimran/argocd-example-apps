@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: nginx-route
-  namespace: openshift-gitops
+  namespace: poc
 spec:
   path: /
   to:
