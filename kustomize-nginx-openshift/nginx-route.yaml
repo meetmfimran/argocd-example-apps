@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: nginx
-  namespace: poc
+  namespace: argocd
   labels:
     app.kubernetes.io/instance: argocd-sample-app
 spec:
