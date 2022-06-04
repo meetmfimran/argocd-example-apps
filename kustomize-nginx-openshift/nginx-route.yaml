@@ -1,13 +1,15 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: nginx-route
+  name: nginx
   namespace: poc
+  labels:
+    app.kubernetes.io/instance: argocd-sample-app
 spec:
-  path: /
+  host: ngnix.apps.cluster1.lab.yodel.net
   to:
     kind: Service
-    name: nginx
+    name: prod-nginx
     weight: 100
   port:
     targetPort: 8080
