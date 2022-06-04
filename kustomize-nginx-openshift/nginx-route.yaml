@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: argocd-sample-app
 spec:
-  host: ngnix..apps.osi.uk.mizuho-sc.com
+  host: ngnix.apps.osi.uk.mizuho-sc.com
   to:
     kind: Service
     name: prod-nginx
